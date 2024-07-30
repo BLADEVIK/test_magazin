@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Korataki";
+  src: url("../fonts/korataki.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.mini-header {
+  display: flex;
+  justify-content: end;
+  gap: 70px;
+  background-color: #231815;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.mini-header a {
+  color: white;
+}
+
+.center {
+  padding-left: calc(50% - 700px);
+  padding-right: calc(50% - 700px);
+}/*# sourceMappingURL=style.css.map */

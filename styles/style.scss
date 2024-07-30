@@ -1,0 +1,22 @@
+@import "./reset.scss" ;
+@import "./font.scss" ;
+
+.mini-header { 
+    display: flex;
+    justify-content: end;
+    gap: 70px;
+    background-color: #231815;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    a {
+        color: white;
+    }
+    
+}
+.center {
+    padding-left: calc(50% - 700px);  
+    padding-right: calc(50% - 700px);     
+}
+// h1 {
+//     font-family: "Korataki";
+// }
