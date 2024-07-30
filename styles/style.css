@@ -192,4 +192,48 @@ h1, h2, h3, h4, h5, p {
 .main__card_oldPrice-black {
   color: #231815;
   text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  height: 320px;
+  gap: 194px;
+  background: #0C0C0C;
+}
+
+.footer__security {
+  width: 318px;
+  padding-top: 61px;
+}
+
+.footer__security_text-info {
+  text-decoration: underline;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  color: #808080;
+}
+
+.footer__security_text {
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  padding-top: 53px;
+  color: #808080;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 60px;
+}
+
+.footer__contacts_textColor {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
