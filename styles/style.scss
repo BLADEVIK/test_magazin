@@ -92,7 +92,7 @@
 .main {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 40px;
     row-gap: 50px;
 }
 .main__card {
@@ -124,6 +124,7 @@
     opacity: 0px;
     color: white;
     background-color: #E45302;
+    cursor: pointer;
 }
 .main__card_price {
     padding-top: 20px;
@@ -161,12 +162,12 @@
 .footer {
     display: flex;
     height: 320px;
-    gap: 194px;
      background: #0C0C0C;
+     padding-top: 60px;
 }
 .footer__security {
-    width: 318px;
-    padding-top: 61px;
+    width: 260px;
+    margin-right: 194px;
 }
 .footer__security_text-info {
     text-decoration: underline;
@@ -194,8 +195,41 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top: 60px;
 }
 .footer__contacts_textColor {
     color: white;
+}
+.footer__contacts_text {
+    padding-bottom: 38px;
+}
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 149px;
+    margin-right: 192px;
+}
+.footer__navigation_text {
+    text-decoration: none;
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.footer__documents_text {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #808080;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.footer__documents_cards {
+    padding-top: 72px;
+    display: flex;
+    gap: 33px;
 }
