@@ -1,6 +1,6 @@
 @import "./reset.scss" ;
 @import "./font.scss" ;
-
+//desktop 1900px
 .center {
     padding-left: calc(50% - 700px);  
     padding-right: calc(50% - 700px);     
@@ -76,6 +76,9 @@
     position:absolute;
     left: 140px;
     top: 10px;
+}
+.search_glasesBlack {
+    display: none;
 }
 .basket {
     font-family: "Lato";
@@ -250,4 +253,60 @@
     padding-top: 72px;
     display: flex;
     gap: 33px;
+}
+//desktop 1600px
+@media(max-width: 1600px) {
+    .center {
+    padding-left: calc(50% - 620px);  
+    padding-right: calc(50% - 620px);     
+    }
+
+    .inputSearch {
+        display: none;
+    }
+    .search__img {
+        display: none;
+    }
+    .search_glasesBlack {
+        display: inline;
+        cursor: pointer;
+    }
+    .logo-black {
+    padding-right: 163px;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        row-gap: 30px;
+        margin-bottom: 60px;
+    }
+    .main__card {
+        width: 287px;
+        height: 516px;
+    }
+    .main__card_size {
+        width: 287px;
+        position: relative;
+    }
+
+    .main__card_btnSale {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+    .main__card_btnInfo {
+        top: 360px;
+    }
+    .footer__security {
+    width: 260px;
+    margin-right: 70px;
+}
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 200px;
+    margin-right: 134px;
+}
 }
