@@ -13,6 +13,9 @@
     padding-top: 12px;
     padding-bottom: 12px; 
 }
+.menu_navigation {
+    display: none;
+}
 .mini__header_link {
     font-family: "Lato";
     font-size: 16px;
@@ -72,6 +75,9 @@
 .search__conteiner{
     position: relative;
 }
+// .search_glasesBlack {
+//     display: none;
+// }
 .search__img {
     position:absolute;
     left: 140px;
@@ -333,6 +339,9 @@
     .header__navigation {
         display: none;
     }
+    .menu_navigation {
+    display: inline;
+}
     .search {
         display: none;
     }

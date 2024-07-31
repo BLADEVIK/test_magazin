@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, p {
   padding-bottom: 12px;
 }
 
+.menu_navigation {
+  display: none;
+}
+
 .mini__header_link {
   font-family: "Lato";
   font-size: 16px;
@@ -374,6 +378,9 @@ h1, h2, h3, h4, h5, p {
   }
   .header__navigation {
     display: none;
+  }
+  .menu_navigation {
+    display: inline;
   }
   .search {
     display: none;
