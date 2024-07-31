@@ -352,4 +352,50 @@ h1, h2, h3, h4, h5, p {
     margin-left: 200px;
     margin-right: 134px;
   }
+}
+@media (max-width: 771px) {
+  .center {
+    padding-left: calc(50% - 341px);
+    padding-right: calc(50% - 341px);
+  }
+  .main__card_size {
+    width: 320px;
+    height: 477px;
+  }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    row-gap: 50px;
+    margin-bottom: 60px;
+  }
+  .mini__header {
+    display: none;
+  }
+  .header__navigation {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .main__card_btnInfo {
+    top: 380px;
+  }
+  .main__card_btnSale {
+    top: 35px;
+  }
+  .main__card_size {
+    width: 287px;
+  }
+  .logo-black {
+    padding-right: 400px;
+  }
+  .footer {
+    height: 521px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main__card_price {
+    padding-top: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
