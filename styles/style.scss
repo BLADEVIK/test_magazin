@@ -1,22 +1,28 @@
 @import "./reset.scss" ;
 @import "./font.scss" ;
 
-.mini-header { 
+.center {
+    padding-left: calc(50% - 700px);  
+    padding-right: calc(50% - 700px);     
+}
+.mini__header { 
     display: flex;
     justify-content: end;
     gap: 70px;
     background-color: #231815;
     padding-top: 12px;
-    padding-bottom: 12px;
-    a {
-        color: white;
-    }
-    
+    padding-bottom: 12px; 
 }
-.center {
-    padding-left: calc(50% - 700px);  
-    padding-right: calc(50% - 700px);     
+.mini__header_link {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
 }
+
 
 .header {
     display: flex;
@@ -29,11 +35,21 @@
 //    padding-left: 261px;
     padding-right: 245px;
 }
-.navigation {
+.header__navigation {
     display: flex;
     gap: 100px;
     padding-right: 132px;
     font-family: "Lato";
+}
+.header__navigation_link {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #231815;
+    text-decoration: none;
+
 }
 .search {
     display: flex;
@@ -94,6 +110,7 @@
     flex-wrap: wrap;
     gap: 40px;
     row-gap: 50px;
+    margin-bottom: 60px;
 }
 .main__card {
     position: relative;
@@ -198,6 +215,7 @@
 }
 .footer__contacts_textColor {
     color: white;
+    text-decoration: none;
 }
 .footer__contacts_text {
     padding-bottom: 38px;
