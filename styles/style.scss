@@ -5,6 +5,12 @@
     padding-left: calc(50% - 700px);  
     padding-right: calc(50% - 700px);     
 }
+.footer__documents_cardsMobile {
+    display: none;
+}
+.footer__mobile {
+    display: none;
+}
 .mini__header { 
     display: flex;
     justify-content: end;
@@ -402,7 +408,7 @@
                 top: -65px;
             }
         }
-        &__mobile {
+        &__tablet {
             .footer__security_text {
                display: block;
                 max-width: 382px;
@@ -429,6 +435,9 @@
     padding-left: calc(50% - 175px);  
     padding-right: calc(50% - 175px);     
     }
+    .footer__mobile {
+        display: inline-block;
+    }
        .logo-black {
         padding-right: 138px;
     }
@@ -446,4 +455,68 @@
         row-gap: 30px;
         margin-bottom: 40px;
     }
+    .footer {
+        display: none;
+    }
+    .footer__logo {
+        padding-top: 40px;
+        padding-bottom: 34px;
+    }
+    .footer__contacts_textColor {
+        padding-bottom: 10px;
+    }
+    .footer__navigation {
+        padding-bottom: 10px;
+    }
+    .footer__documents_cards {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .main__card {
+        width: 155px;
+        height: 320px;
+    }
+    .main__card_size {
+        width: 155px;
+        height: 250px;
+    }
+        .main__card_btnInfo {
+            display: none;
+        }
+        .main__card_btnSale {
+
+        font-family: "Lato";
+        background-color: black;
+        color: white;
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        width: 70px;
+        height: 24px;
+        border-radius: 100px;
+        opacity: 0px;
 }
+    .footer__mobile {
+     background: #0C0C0C;
+    }
+       
+    .footer__documents_text {
+        display: block;
+        position:static;
+        top: 0;
+    }
+       
+    .footer__tablet .footer__security_text {
+        display: block;
+        max-width: 300px;
+        margin-left: 0;
+        padding-bottom: 40px;
+    }
+    .footer__about {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .invisible {
+        display: none;
+    }
+    }
