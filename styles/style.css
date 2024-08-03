@@ -374,6 +374,9 @@ h1, h2, h3, h4, h5, p {
     padding-left: calc(50% - 341px);
     padding-right: calc(50% - 341px);
   }
+  .logo-black {
+    width: 570px;
+  }
   .title {
     font-family: "Korataki";
     font-size: 32px;
@@ -467,6 +470,7 @@ h1, h2, h3, h4, h5, p {
   }
   .logo-black {
     padding-right: 138px;
+    width: 280px;
   }
   .title {
     font-family: Korataki;
